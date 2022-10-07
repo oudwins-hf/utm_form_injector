@@ -1,0 +1,17 @@
+{
+  "name": "utm_form_injector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild ./src/index.js --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --outfile=./dist/utm_form_injector.js",
+    "watch": "esbuild ./src/index.js --outfile=./dist/utm_form_injector.js --bundle --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.10"
+  }
+}
