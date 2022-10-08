@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GNU",
   "devDependencies": {
     "esbuild": "^0.15.10"
   }
